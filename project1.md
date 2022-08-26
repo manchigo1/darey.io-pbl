@@ -2,27 +2,29 @@
 ### Connecting to EC2 terminaL
 
 'cd ~/Downloads'
-'cd~/Downloads/backup'
+'cd~/Downloads/backup' 
 
 ![Ubuntu server](./images/Ubuntu%20server%20.png)
 
+### Updating SYSTEM WITH COMMANDS BELOW.
 'sudo apt update'
-
+### INSTALLNG APACHE2 SERVER 
 'sudo apt install apache2'
 'sudo systemctl status apache2'
 ![Apache2 server](./images/Apache2%20server.png)
 
+### OPENING POST 80
 'Opening Port 80'
 ![Port 80 opening](./images/Port%2080%20opened.png)
 
 "curl http://localhost:80"
 ![Apache2 defaultpage](./images/Apache%20defaultpage.png)
-
+### INSTALLING MYSQL SERVER WITH THE COMMANDS BELOW
 'sudo apt install mysql-server'
 ![Sudo apt mysqlserver](./images/Sudo%20apt%20install%20mysqlserver.png)
 
-'sudo mysql'
-' setting of password to run a security script'
+'sudo mysql'- using this cmmad to acertain myqsl server is running properly.
+' setting password to run a security script'
 '  sudo mysql_secure_installation'
 ' sudo mysql -p'
 ' mysql> exit'
